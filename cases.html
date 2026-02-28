@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кейсы — Бизнес Аквариум</title>
+  <meta name="description" content="Реальные проекты, измеримые метрики, честные отзывы. Результаты наших клиентов.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.84-.13 2.7-.37"/>
+            <path d="M12 6c-3.3 0-6 2.7-6 6s2.7 6 6 6"/>
+            <circle cx="12" cy="12" r="2"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Бизнес Аквариум</span>
+        </div>
+      </a>
+      
+      <ul class="nav-menu">
+        <li><a href="rop.html" class="nav-link">РОП на час</a></li>
+        <li><a href="santehnik.html" class="nav-link">Сантехник продаж</a></li>
+        <li><a href="crm.html" class="nav-link">CRM и Автоматизация</a></li>
+        <li><a href="cases.html" class="nav-link" style="color: var(--primary);">Кейсы</a></li>
+        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+      </ul>
+      
+      <a href="contacts.html" class="nav-cta">Бесплатный аудит</a>
+      
+      <button class="mobile-toggle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="container">
+      <div class="page-hero-content">
+        <h1>Кейсы и результаты</h1>
+        <p class="page-hero-description">Реальные проекты, измеримые метрики, честные отзывы. Фильтруйте по услуге или нише — найдите кейс, похожий на ваш бизнес.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Cases Section -->
+  <section class="section">
+    <div class="container">
+      <!-- Filters -->
+      <div class="cases-filters">
+        <button class="filter-btn active" data-filter="all">Все кейсы</button>
+        <button class="filter-btn" data-filter="rop">РОП на час</button>
+        <button class="filter-btn" data-filter="santehnik">Сантехник продаж</button>
+        <button class="filter-btn" data-filter="crm">CRM и Автоматизация</button>
+      </div>
+      
+      <!-- Cases Grid -->
+      <div class="cases-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+        
+        <!-- Case 1: SchoolPro -->
+        <div class="case-card" data-category="santehnik,crm">
+          <div class="case-header">
+            <div class="case-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="case-title">SchoolPro</h4>
+              <p class="case-niche">Онлайн-школа английского</p>
+            </div>
+          </div>
+          <div class="case-body">
+            <div class="case-section">
+              <div class="case-section-title">Проблема</div>
+              <p class="case-problem">Хаос в заявках, нет аналитики, менеджеры работали без стандартов. Конверсия стагнировала.</p>
+            </div>
+            <div class="case-section">
+              <div class="case-section-title">Решение</div>
+              <ul class="case-solutions">
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Внедрили автоматизированный ОКК
+                </li>
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Запустили обучающего бота для менеджеров
+                </li>
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Настроили связку Битрикс24 ↔ GetCourse
+                </li>
+              </ul>
+            </div>
+            <div class="case-results">
+              <div class="case-result">
+                <span class="case-result-label">Конверсия</span>
+                <div class="case-result-value">
+                  <span class="case-result-before">4.2%</span>
+                  <span style="color: var(--gray-400);">→</span>
+                  <span class="case-result-after">9.8%</span>
+                  <span class="case-result-badge">+133%</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="case-result-label">Время на отчеты</span>
+                <div class="case-result-value">
+                  <span class="case-result-before">12 ч/нед</span>
+                  <span style="color: var(--gray-400);">→</span>
+                  <span class="case-result-after">2 ч/нед</span>
+                  <span class="case-result-badge">-83%</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="case-result-label">Потеря лидов</span>
+                <div class="case-result-value">
+                  <span class="case-result-before">~30%</span>
+                  <span style="color: var(--gray-400);">→</span>
+                  <span class="case-result-after">&lt;5%</span>
+                  <span class="case-result-badge">-83%</span>
+                </div>
+              </div>
+            </div>
+            <div class="case-testimonial">
+              <p class="case-testimonial-text">«За 2 месяца работы с «Бизнес Аквариумом» мы не просто выросли в продажах — мы получили систему, которая работает без моего постоянного участия. Рекомендую!»</p>
+              <p class="case-testimonial-author">— Алексей, собственник SchoolPro</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Case 2: HomeService -->
+        <div class="case-card" data-category="santehnik">
+          <div class="case-header">
+            <div class="case-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+                <polyline points="9 22 9 12 15 12 15 22"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="case-title">HomeService</h4>
+              <p class="case-niche">Услуги на дом</p>
+            </div>
+          </div>
+          <div class="case-body">
+            <div class="case-section">
+              <div class="case-section-title">Проблема</div>
+              <p class="case-problem">Менеджеры сливали лиды, не было понимания где теряются клиенты. Собственник не видел реальной картины.</p>
+            </div>
+            <div class="case-section">
+              <div class="case-section-title">Решение</div>
+              <ul class="case-solutions">
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  OKC-система выявила 3 «протечки» в воронке
+                </li>
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Пересборка скриптов под нишу
+                </li>
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Настройка триггерного дожима
+                </li>
+              </ul>
+            </div>
+            <div class="case-results">
+              <div class="case-result">
+                <span class="case-result-label">Рост продаж</span>
+                <div class="case-result-value">
+                  <span class="case-result-after">+65%</span>
+                  <span class="case-result-badge">+65%</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="case-result-label">Соблюдение скрипта</span>
+                <div class="case-result-value">
+                  <span class="case-result-before">38%</span>
+                  <span style="color: var(--gray-400);">→</span>
+                  <span class="case-result-after">89%</span>
+                  <span class="case-result-badge">+134%</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="case-result-label">Скорость реакции</span>
+                <div class="case-result-value">
+                  <span class="case-result-before">47 мин</span>
+                  <span style="color: var(--gray-400);">→</span>
+                  <span class="case-result-after">8 мин</span>
+                  <span class="case-result-badge">-83%</span>
+                </div>
+              </div>
+            </div>
+            <div class="case-testimonial">
+              <p class="case-testimonial-text">«ОКК показывает реальные проблемы, а бот тренирует команду лучше любого тренера. Рекомендую!»</p>
+              <p class="case-testimonial-author">— Мария, директор HomeService</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Case 3: TechCourse -->
+        <div class="case-card" data-category="crm">
+          <div class="case-header">
+            <div class="case-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="3" width="20" height="14" rx="2" ry="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+            </div>
+            <div>
+              <h4 class="case-title">TechCourse</h4>
+              <p class="case-niche">IT-образование</p>
+            </div>
+          </div>
+          <div class="case-body">
+            <div class="case-section">
+              <div class="case-section-title">Проблема</div>
+              <p class="case-problem">Ручная выдача документов, потеря времени на рутину, ошибки в данных. 15 часов в неделю на бумажную работу.</p>
+            </div>
+            <div class="case-section">
+              <div class="case-section-title">Решение</div>
+              <ul class="case-solutions">
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Автодокументы в Битрикс24
+                </li>
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Интеграция с GetCourse
+                </li>
+                <li class="case-solution">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Автоматические уведомления студентам
+                </li>
+              </ul>
+            </div>
+            <div class="case-results">
+              <div class="case-result">
+                <span class="case-result-label">Экономия времени</span>
+                <div class="case-result-value">
+                  <span class="case-result-after">15 ч/нед</span>
+                  <span class="case-result-badge">15 ч</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="case-result-label">Ошибки в документах</span>
+                <div class="case-result-value">
+                  <span class="case-result-before">5-7%</span>
+                  <span style="color: var(--gray-400);">→</span>
+                  <span class="case-result-after">&lt;1%</span>
+                  <span class="case-result-badge">-85%</span>
+                </div>
+              </div>
+              <div class="case-result">
+                <span class="case-result-label">Скорость выдачи</span>
+                <div class="case-result-value">
+                  <span class="case-result-before">2 дня</span>
+                  <span style="color: var(--gray-400);">→</span>
+                  <span class="case-result-after">5 мин</span>
+                  <span class="case-result-badge">-99%</span>
+                </div>
+              </div>
+            </div>
+            <div class="case-testimonial">
+              <p class="case-testimonial-text">«Автоматизация документов сэкономила нам 15 часов в неделю и полностью убрала ошибки. Теперь всё работает как часы.»</p>
+              <p class="case-testimonial-author">— Дмитрий, основатель TechCourse</p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section section-dark">
+    <div class="container text-center">
+      <h2 style="color: white; margin-bottom: 16px;">Ваш бизнес может работать так же эффективно</h2>
+      <p style="color: rgba(255,255,255,0.7); margin-bottom: 32px; max-width: 500px; margin-left: auto; margin-right: auto;">Каждый кейс — уникальная история, но общий принцип один: прозрачность + автоматизация = рост прибыли</p>
+      <a href="contacts.html" class="btn btn-primary btn-lg">Получить бесплатный аудит</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10"/><circle cx="12" cy="12" r="2"/></svg></div>
+            <span class="logo-title">Бизнес Аквариум</span>
+          </div>
+          <p class="footer-description">Создаем прозрачную среду для роста продаж.</p>
+          <p class="footer-copyright">© 2024 Бизнес Аквариум</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="rop.html" class="footer-link">РОП на час</a></li>
+            <li><a href="santehnik.html" class="footer-link">Сантехник продаж</a></li>
+            <li><a href="crm.html" class="footer-link">CRM и Автоматизация</a></li>
+            <li><a href="cases.html" class="footer-link">Кейсы</a></li>
+            <li><a href="contacts.html" class="footer-link">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Документы</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

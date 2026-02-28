@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRM и Автоматизация — Бизнес Аквариум</title>
+  <meta name="description" content="Битрикс24, GetCourse и аналитика в единой экосистеме. Интеграция каналов связи, автоматизация документов.">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.93 0 1.84-.13 2.7-.37"/>
+            <path d="M12 6c-3.3 0-6 2.7-6 6s2.7 6 6 6"/>
+            <circle cx="12" cy="12" r="2"/>
+          </svg>
+        </div>
+        <div class="logo-text">
+          <span class="logo-title">Бизнес Аквариум</span>
+        </div>
+      </a>
+      
+      <ul class="nav-menu">
+        <li><a href="rop.html" class="nav-link">РОП на час</a></li>
+        <li><a href="santehnik.html" class="nav-link">Сантехник продаж</a></li>
+        <li><a href="crm.html" class="nav-link" style="color: var(--primary);">CRM и Автоматизация</a></li>
+        <li><a href="cases.html" class="nav-link">Кейсы</a></li>
+        <li><a href="contacts.html" class="nav-link">Контакты</a></li>
+      </ul>
+      
+      <a href="contacts.html" class="nav-cta">Бесплатный аудит</a>
+      
+      <button class="mobile-toggle">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="3" y1="12" x2="21" y2="12"/>
+          <line x1="3" y1="6" x2="21" y2="6"/>
+          <line x1="3" y1="18" x2="21" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="hero-orb hero-orb-1"></div>
+    <div class="hero-orb hero-orb-2"></div>
+    <div class="container">
+      <div class="page-hero-content">
+        <div class="section-badge" style="background: rgba(16, 185, 129, 0.2); border-color: rgba(16, 185, 129, 0.3); color: #34d399;">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="3"/>
+            <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4"/>
+          </svg>
+          Услуга #3
+        </div>
+        <h1>CRM и Автоматизация</h1>
+        <p class="page-hero-description">Битрикс24, GetCourse и аналитика в единой экосистеме. Интеграция каналов связи, автоматизация документов, сквозная аналитика и дашборды для собственника.</p>
+        <div style="margin-top: 32px;">
+          <a href="contacts.html" class="btn btn-primary btn-lg">Заказать консультацию</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- For Whom Section -->
+  <section class="section" style="padding-bottom: 40px;">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Для кого эта услуга</h2>
+      </div>
+      
+      <div class="services-grid" style="max-width: 1000px; margin: 0 auto; grid-template-columns: repeat(4, 1fr);">
+        <div class="card" style="text-align: center;">
+          <div class="card-body">
+            <div class="card-icon" style="margin: 0 auto 16px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z"/>
+                <path d="M6 12v5c3 3 9 3 12 0v-5"/>
+              </svg>
+            </div>
+            <h4 class="card-title">Онлайн-школы</h4>
+            <p class="card-text">Нужно связать GetCourse, Битрикс24, платежи и аналитику</p>
+          </div>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+          <div class="card-body">
+            <div class="card-icon" style="margin: 0 auto 16px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+              </svg>
+            </div>
+            <h4 class="card-title">Ручные процессы</h4>
+            <p class="card-text">Устали от Excel, таблиц и «потерянных» заявок</p>
+          </div>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+          <div class="card-body">
+            <div class="card-icon" style="margin: 0 auto 16px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/>
+              </svg>
+            </div>
+            <h4 class="card-title">Многоканальность</h4>
+            <p class="card-text">Сайт, соцсети, мессенджеры — всё в одном окне</p>
+          </div>
+        </div>
+        
+        <div class="card" style="text-align: center;">
+          <div class="card-body">
+            <div class="card-icon" style="margin: 0 auto 16px;">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="20" x2="12" y2="10"/>
+                <line x1="18" y1="20" x2="18" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="16"/>
+              </svg>
+            </div>
+            <h4 class="card-title">P&L в реальном времени</h4>
+            <p class="card-text">Дашборды с метриками без бухгалтера</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tabs Section -->
+  <section class="section" style="padding-top: 40px;">
+    <div class="container">
+      <!-- Tabs Navigation -->
+      <div class="tabs">
+        <div class="tabs-list">
+          <button class="tab-btn active" data-tab="tab-integrations">Интеграции</button>
+          <button class="tab-btn" data-tab="tab-pricing">Тарифы</button>
+          <button class="tab-btn" data-tab="tab-faq">FAQ</button>
+        </div>
+      </div>
+
+      <!-- Tab: Интеграции -->
+      <div id="tab-integrations" class="tab-content active">
+        <div class="advantages-grid" style="max-width: 900px; margin: 0 auto;">
+          <div class="advantage-card">
+            <div class="advantage-icon" style="background: linear-gradient(135deg, #0891b2, #06b6d4);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+              </svg>
+            </div>
+            <div class="advantage-content">
+              <h4>🔗 Интеграция каналов связи</h4>
+              <p>Сайт, WhatsApp, Telegram, Instagram, звонки, Email — всё в едином окне Битрикс24. Автоматическое создание лидов и умное распределение.</p>
+            </div>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="advantage-icon" style="background: linear-gradient(135deg, #0d9488, #14b8a6);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+                <polyline points="14 2 14 8 20 8"/>
+                <line x1="16" y1="13" x2="8" y2="13"/>
+                <line x1="16" y1="17" x2="8" y2="17"/>
+              </svg>
+            </div>
+            <div class="advantage-content">
+              <h4>📄 Автоматизация документов</h4>
+              <p>Генерация договоров, счетов, актов по шаблону. Автоподписание через ЭДО. Отправка документов клиенту одним кликом.</p>
+            </div>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="advantage-icon" style="background: linear-gradient(135deg, #059669, #10b981);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="17 1 21 5 17 9"/>
+                <path d="M3 11V9a4 4 0 0 1 4-4h14"/>
+                <polyline points="7 23 3 19 7 15"/>
+                <path d="M21 13v2a4 4 0 0 1-4 4H3"/>
+              </svg>
+            </div>
+            <div class="advantage-content">
+              <h4>🔁 Связка Битрикс24 ↔ GetCourse</h4>
+              <p>Синхронизация статусов оплат и доступов. Автоматическое создание сделок. Триггеры на допродажи: «Клиент прошел 50% курса → предложить следующий».</p>
+            </div>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="advantage-icon" style="background: linear-gradient(135deg, #7c3aed, #a78bfa);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="12" y1="20" x2="12" y2="10"/>
+                <line x1="18" y1="20" x2="18" y2="4"/>
+                <line x1="6" y1="20" x2="6" y2="16"/>
+              </svg>
+            </div>
+            <div class="advantage-content">
+              <h4>📊 Сквозная аналитика</h4>
+              <p>Интеграция с Roistat/Calltouch/Яндекс.Метрика. Расчет ROMI, CAC, LTV в реальном времени. Дашборды для собственника.</p>
+            </div>
+          </div>
+          
+          <div class="advantage-card">
+            <div class="advantage-icon" style="background: linear-gradient(135deg, #dc2626, #f87171);">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="3" y="11" width="18" height="10" rx="2" ry="2"/>
+                <circle cx="12" cy="5" r="2"/>
+                <path d="M12 7v4"/>
+                <line x1="8" y1="16" x2="8" y2="16"/>
+                <line x1="16" y1="16" x2="16" y2="16"/>
+              </svg>
+            </div>
+            <div class="advantage-content">
+              <h4>🤖 Роботы и триггеры</h4>
+              <p>Автозадачи: «Если клиент не ответил за 2 часа → напомнить менеджеру». Триггерные сообщения. Автоматическая квалификация лидов.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: Тарифы -->
+      <div id="tab-pricing" class="tab-content">
+        <div class="pricing-grid" style="max-width: 1100px; margin: 0 auto;">
+          <!-- Базовая -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h4 class="pricing-name">Базовая настройка</h4>
+              <p class="pricing-description">Коробка Битрикс24 «под ключ» для малого бизнеса</p>
+              <div class="pricing-price">
+                <span class="pricing-amount">40 000</span>
+                <span class="pricing-period">₽/внедрение</span>
+              </div>
+            </div>
+            <div class="pricing-body">
+              <ul class="pricing-features">
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Установка и настройка Битрикс24 (облако)
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Настройка воронки продаж и карточки клиента
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Подключение телефонии и мессенджеров (1 канал)
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Базовые роботы: напоминания, смена стадий
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Обучение 2-3 сотрудников (2 часа)
+                </li>
+                <li class="pricing-feature disabled">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+                  Интеграция с GetCourse
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <a href="contacts.html" class="btn btn-outline" style="width: 100%;">Заказать</a>
+            </div>
+          </div>
+          
+          <!-- Автоматизация -->
+          <div class="pricing-card popular">
+            <div class="pricing-badge">⭐ Популярный</div>
+            <div class="pricing-header">
+              <h4 class="pricing-name">Автоматизация</h4>
+              <p class="pricing-description">Для растущих проектов</p>
+              <div class="pricing-price">
+                <span class="pricing-amount" >90 000</span>
+                <span class="pricing-period">₽/внедрение</span>
+              </div>
+            </div>
+            <div class="pricing-body">
+              <ul class="pricing-features">
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Всё из тарифа «Базовая»
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Подключение 3-5 каналов связи
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Генерация документов по шаблону
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Интеграция с GetCourse (базовая)
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Роботы и триггеры: 10+ сценариев
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Дашборды для РОПа
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  2 недели техподдержки
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <a href="contacts.html" class="btn" style="width: 100%; background: white; color: var(--primary);">Заказать</a>
+            </div>
+          </div>
+          
+          <!-- Экосистема -->
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h4 class="pricing-name">Экосистема</h4>
+              <p class="pricing-description">Полная цифровая трансформация</p>
+              <div class="pricing-price">
+                <span class="pricing-amount">180 000</span>
+                <span class="pricing-period">₽ + сопровождение</span>
+              </div>
+            </div>
+            <div class="pricing-body">
+              <ul class="pricing-features">
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Всё из тарифа «Автоматизация»
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  🔍 Интеграция автоматизированного ОКК
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  🤖 Интеграция обучающего бота
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Продвинутая связка Б24 ↔ GetCourse
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Сквозная аналитика + P&L-дашборды
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  Автодокументооборот с ЭДО
+                </li>
+                <li class="pricing-feature">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"/></svg>
+                  1 месяц сопровождения
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <a href="contacts.html" class="btn btn-outline" style="width: 100%;">Заказать</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Tab: FAQ -->
+      <div id="tab-faq" class="tab-content">
+        <div class="faq-list">
+          <div class="faq-item">
+            <button class="faq-question">
+              А если у нас уже настроен Битрикс24, но «как-то криво»?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Мы проводим аудит текущей настройки и либо «лечим» существующую конфигурацию, либо аккуратно мигрируем данные в новую структуру. Вы не теряете историю сделок и клиентов.
+              </div>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              Сколько времени занимает внедрение?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                «Базовая» — 5-7 рабочих дней. «Автоматизация» — 2-3 недели. «Экосистема» — 4-6 недель + сопровождение. Точные сроки — после аудита (бесплатно).
+              </div>
+            </div>
+          </div>
+          
+          <div class="faq-item">
+            <button class="faq-question">
+              Вы работаете только с Битрикс24 и GetCourse?
+              <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="6 9 12 15 18 9"/>
+              </svg>
+            </button>
+            <div class="faq-answer">
+              <div class="faq-answer-content">
+                Это наши основные платформы. Но мы также имеем опыт с AmoCRM, Tilda, SendPulse, Яндекс.360 и другими. Напишите нам — обсудим вашу стек-технологию.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tariff Constructor Section -->
+  <section class="section section-alt" id="constructor">
+    <div class="container">
+      <div class="section-header">
+        <div class="section-badge">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="4" y="4" width="16" height="16" rx="2"/><path d="M9 9h6v6H9z"/>
+          </svg>
+          Конструктор тарифов
+        </div>
+        <h2 class="section-title">Соберите свой тариф</h2>
+        <p class="section-description">Выберите базовый тариф и необходимые модули — получите точную стоимость</p>
+      </div>
+      
+      <div class="constructor-wrapper">
+        <div class="constructor-options-panel">
+          <!-- Базовые тарифы -->
+          <div class="option-category">
+            <div class="option-category-title">Базовые тарифы</div>
+            <div class="options-list" data-category="base">
+              <div class="option-item" data-id="crm-basic" data-price="40000">
+                <div class="option-info">
+                  <span class="option-name">Базовая настройка</span>
+                  <span class="option-desc">Битрикс24 для малого бизнеса</span>
+                </div>
+                <span class="option-price">40 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-auto" data-price="90000">
+                <div class="option-info">
+                  <span class="option-name">Автоматизация</span>
+                  <span class="option-desc">Для растущих проектов</span>
+                </div>
+                <span class="option-price">90 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-eco" data-price="180000">
+                <div class="option-info">
+                  <span class="option-name">Экосистема</span>
+                  <span class="option-desc">Полная цифровая трансформация</span>
+                </div>
+                <span class="option-price">180 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Каналы связи -->
+          <div class="option-category">
+            <div class="option-category-title">Каналы связи</div>
+            <div class="options-list" data-category="channels">
+              <div class="option-item" data-id="crm-whatsapp" data-price="10000">
+                <span class="option-name">WhatsApp Business API</span>
+                <span class="option-price">+10 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-telegram" data-price="8000">
+                <span class="option-name">Telegram-бот</span>
+                <span class="option-price">+8 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-instagram" data-price="7000">
+                <span class="option-name">Instagram Direct</span>
+                <span class="option-price">+7 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-chat" data-price="5000">
+                <span class="option-name">Онлайн-чат на сайте</span>
+                <span class="option-price">+5 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-telephony" data-price="12000">
+                <span class="option-name">IP-телефония</span>
+                <span class="option-price">+12 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Автоматизация -->
+          <div class="option-category">
+            <div class="option-category-title">Автоматизация</div>
+            <div class="options-list" data-category="automation">
+              <div class="option-item" data-id="crm-docs" data-price="15000">
+                <span class="option-name">Генерация документов</span>
+                <span class="option-price">+15 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-edo" data-price="20000">
+                <span class="option-name">Интеграция ЭДО</span>
+                <span class="option-price">+20 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-robots-5" data-price="10000">
+                <span class="option-name">Роботы (5 сценариев)</span>
+                <span class="option-price">+10 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-robots-15" data-price="25000">
+                <span class="option-name">Роботы (15+ сценариев)</span>
+                <span class="option-price">+25 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Интеграции -->
+          <div class="option-category">
+            <div class="option-category-title">Интеграции</div>
+            <div class="options-list" data-category="integrations">
+              <div class="option-item" data-id="crm-gc-basic" data-price="25000">
+                <span class="option-name">GetCourse базовый</span>
+                <span class="option-price">+25 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-gc-adv" data-price="50000">
+                <span class="option-name">GetCourse продвинутый</span>
+                <span class="option-price">+50 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-roistat" data-price="30000">
+                <span class="option-name">Roistat/Calltouch</span>
+                <span class="option-price">+30 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-dashboards" data-price="40000">
+                <span class="option-name">Дашборды P&L</span>
+                <span class="option-price">+40 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Умные модули -->
+          <div class="option-category">
+            <div class="option-category-title">Умные модули</div>
+            <div class="options-list" data-category="smart">
+              <div class="option-item" data-id="crm-okk-basic" data-price="30000">
+                <div class="option-info">
+                  <span class="option-name">🔍 ОКК базовый</span>
+                  <span class="option-desc">Правила + алерты</span>
+                </div>
+                <span class="option-price">+30 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-okk-ai" data-price="60000">
+                <div class="option-info">
+                  <span class="option-name">🔍 ОКК с AI</span>
+                  <span class="option-desc">NLP, тональность, дашборды</span>
+                </div>
+                <span class="option-price">+60 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-bot" data-price="25000">
+                <div class="option-info">
+                  <span class="option-name">🤖 Обучающий бот</span>
+                  <span class="option-desc">Тренер для менеджеров</span>
+                </div>
+                <span class="option-price">+25 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-bot-crm" data-price="45000">
+                <div class="option-info">
+                  <span class="option-name">🤖 Бот + CRM</span>
+                  <span class="option-desc">Полная интеграция</span>
+                </div>
+                <span class="option-price">+45 000 ₽</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Сопровождение -->
+          <div class="option-category">
+            <div class="option-category-title">Сопровождение</div>
+            <div class="options-list" data-category="support">
+              <div class="option-item" data-id="crm-training-2" data-price="5000">
+                <span class="option-name">Обучение 2 часа</span>
+                <span class="option-price">+5 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-training-4" data-price="15000">
+                <span class="option-name">Обучение 4 часа</span>
+                <span class="option-price">+15 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-support-1" data-price="30000">
+                <span class="option-name">Поддержка 1 месяц</span>
+                <span class="option-price">+30 000 ₽</span>
+              </div>
+              <div class="option-item" data-id="crm-support-3" data-price="75000">
+                <span class="option-name">Поддержка 3 месяца</span>
+                <span class="option-price">+75 000 ₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Summary Card -->
+        <div class="summary-card">
+          <div class="summary-header">
+            <h3>Ваш выбор</h3>
+          </div>
+          <div class="summary-body">
+            <div class="summary-items">
+              <p class="summary-empty">Выберите опции для расчёта</p>
+            </div>
+            <div class="summary-total">
+              <span class="summary-total-label">Итого:</span>
+              <span class="summary-total-price">0 ₽</span>
+            </div>
+            <div class="summary-form">
+              <form id="constructor-form">
+                <div class="form-group">
+                  <input type="text" class="form-input" name="name" placeholder="Ваше имя" required>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-input" name="contact" placeholder="Телефон или Telegram" required>
+                </div>
+                <button type="submit" class="btn btn-primary" style="width: 100%;">
+                  Получить расчёт
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="section section-dark">
+    <div class="container text-center">
+      <h2 style="color: white; margin-bottom: 16px;">Готовы к цифровой трансформации?</h2>
+      <p style="color: rgba(255,255,255,0.7); margin-bottom: 32px;">Получите бесплатную консультацию по автоматизации</p>
+      <a href="contacts.html" class="btn btn-primary btn-lg">Заказать консультацию</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="footer-brand">
+            <div class="logo-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10"/><circle cx="12" cy="12" r="2"/></svg></div>
+            <span class="logo-title">Бизнес Аквариум</span>
+          </div>
+          <p class="footer-description">Создаем прозрачную среду для роста продаж.</p>
+          <p class="footer-copyright">© 2024 Бизнес Аквариум</p>
+        </div>
+        <div>
+          <h4 class="footer-title">Навигация</h4>
+          <ul class="footer-links">
+            <li><a href="rop.html" class="footer-link">РОП на час</a></li>
+            <li><a href="santehnik.html" class="footer-link">Сантехник продаж</a></li>
+            <li><a href="crm.html" class="footer-link">CRM и Автоматизация</a></li>
+            <li><a href="cases.html" class="footer-link">Кейсы</a></li>
+            <li><a href="contacts.html" class="footer-link">Контакты</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-title">Документы</h4>
+          <ul class="footer-links">
+            <li><a href="#" class="footer-link">Политика конфиденциальности</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
